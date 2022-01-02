@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+ 
+    background: white;
+    font-family: 'Open Sans', sans-serif;
+
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 12vh;
+    padding: 0 1vh;
+    }
+
+nav ul{
+    height: 9vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+nav ul li {
+    list-style: none;
+    padding: 0 25px;
+}
+
+nav ul li a {
+    color: rgb(3, 69, 122);
+    text-decoration: none;
+}
+nav ul li a:hover{
+    padding: 3vh;
+    text-underline-offset:inherit ;
+}
+.search-bar{
+    display: flex;
+    align-items: center; 
+    margin: 0 22px;
+
+}
+.search-bar input{
+    width: 493px;
+    height: 23px;
+    border-radius: 5px;
+    margin: 0 16px 0 56px;
+    padding: 0 12px;
+}
+.slide{ 
+    padding: 0 200px;
+    margin: 12px;
+
+}
+.card{
+    max-width: 91vw;
+    margin: 37px auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.cards{
+    display: flex; 
+    overflow: hidden;
+}
+
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+
+.card h2{
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(3, 69, 122);
+    color: cornsilk;
+}
+.container{
+    min-height: calc(100vh - 12vh - 9vh);
+}
+footer{
+    height: 12vh;
+    background-color: grey;
+    color: ivory;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
